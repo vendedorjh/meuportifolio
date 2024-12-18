@@ -1,0 +1,50 @@
+/* Cards Section */
+.languages {
+    padding: 4rem 0;
+}
+
+.languages h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #7dd3fc;
+    margin-bottom: 3rem;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.875rem;
+}

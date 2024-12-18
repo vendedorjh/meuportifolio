@@ -1,0 +1,69 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header-content {
+        height: 4rem;
+    }
+
+    .hero-content {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .hero-text h1 {
+        font-size: 2rem;
+    }
+
+    .highlight {
+        font-size: 2rem;
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+
+    .hero-image {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certificate-card img {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero {
+        padding-top: 6rem;
+    }
+
+    .hero-text h1 {
+        font-size: 1.75rem;
+    }
+
+    .highlight {
+        font-size: 1.75rem;
+    }
+
+    .social-links {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .carousel-buttons {
+        gap: 0.5rem;
+    }
+
+    .carousel-btn {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
