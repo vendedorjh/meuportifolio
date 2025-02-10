@@ -9,7 +9,10 @@ body {
     margin: 0 auto;
     padding: 0 1rem;
 }
-
+.logo a{
+    text-decoration: none;
+    text-transform: none;
+}
 /* Botões */
 .btn {
     display: inline-flex;
